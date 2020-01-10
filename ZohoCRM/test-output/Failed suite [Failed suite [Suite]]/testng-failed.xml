@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.zoho.scripts.TestCreateTaskPage">
+        <methods>
+          <include name="newTask"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- org.zoho.scripts.TestCreateTaskPage -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.zoho.scripts.TestInvalidLoginPage"/>
+    </classes>
+  </test>
+</suite> 
